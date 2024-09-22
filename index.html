@@ -407,8 +407,9 @@
                 <div class="portfolio-info">
                   <h4>Dev-Ágil: Série Básico - To-Do-List</h4>
                   <p>Seu passaporte para a liberdade financeira</p>
-                  <a href="assets/img/portfolio/books-1.jpg" title="Dev-Ágil: Série Básico - To-Do-List" data-gallery="portfolio-gallery-book"
-                    class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <a href="assets/img/portfolio/books-1.jpg" title="Dev-Ágil: Série Básico - To-Do-List"
+                    data-gallery="portfolio-gallery-book" class="glightbox preview-link"><i
+                      class="bi bi-zoom-in"></i></a>
                   <a href="Livros.html" title="Mais Detalhes" class="details-link"><i class="bi bi-link-45deg"></i></a>
                 </div>
               </div>
@@ -575,7 +576,8 @@
             <div class="icon flex-shrink-0"><i class="bi bi-binoculars"></i></div>
             <div>
               <h4 class="title"><a href="service-details.html" class="stretched-link">Automações</a></h4>
-              <p class="description">Robôs e automações para preenchimento de planilhas, mensagens automáticas, pesquisas em sites, envio de e-mails, transcrição de videos e resumo dos mesmos para uso pessoal e diversas outras opções para tomar seu café enquanto seu computador faz o trabalho.</p>
+              <p class="description">Robôs e automações para preenchimento de planilhas, mensagens automáticas,
+                pesquisas em sites, envio de e-mails e diversas outras opções.</p>
             </div>
           </div><!-- End Service Item -->
 
@@ -583,7 +585,8 @@
             <div class="icon flex-shrink-0"><i class="bi bi-brightness-high"></i></div>
             <div>
               <h4 class="title"><a href="service-details.html" class="stretched-link">Design de sites</a></h4>
-              <p class="description">Ideias, logos, design e muito mais para dar uma identidade para o seu próprio site.</p>
+              <p class="description">Ideias, logos, design e muito mais para dar uma identidade para o seu próprio site.
+              </p>
             </div>
           </div><!-- End Service Item -->
 
@@ -639,16 +642,51 @@
                   <p>matheuspaulcoelho@hotmail.com</p>
                 </div>
               </div><!-- End Info Item -->
+
               <iframe
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3775.9150308606927!2d-41.97068372512893!3d-18.846445505483327!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xb1a6fa69ae875d%3A0x80b10aadf12c8aca!2sR.%20Fais%C3%A3o%2C%20137%20-%20Lagoa%20Santa%2C%20Gov.%20Valadares%20-%20MG%2C%2035065-136!5e0!3m2!1spt-BR!2sbr!4v1725599794781!5m2!1spt-BR!2sbr"
                 frameborder="0" style="border:0; width: 100%; height: 270px;" allowfullscreen="" loading="lazy"
                 referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
           </div>
-          </form>
-        </div><!-- End Contact Form -->
 
-      </div>
+          <div class="col-lg-7"></div>
+            <form action="forms/contact.php" method="post" class="php-email-form" data-aos="fade-up" data-aos-delay="200">
+              <div class="row gy-4">
+
+                <div class="col-md-6">
+                  <label for="name-field" class="pb-2">Seu Nome</label>
+                  <input type="text" name="name" id="name-field" class="form-control" required="">
+                </div>
+
+                <div class="col-md-6">
+                  <label for="email-field" class="pb-2">Seu Email</label>
+                  <input type="email" class="form-control" name="email" id="email-field" required="">
+                </div>
+
+                <div class="col-md-12">
+                  <label for="subject-field" class="pb-2">Assunto</label>
+                  <input type="text" class="form-control" name="subject" id="subject-field" required="">
+                </div>
+
+                <div class="col-md-12">
+                  <label for="message-field" class="pb-2">Mensagem</label>
+                  <textarea class="form-control" name="message" rows="10" id="message-field" required="" placeholder="Digite sua mensagem com riqueza de detalhes."></textarea>
+                </div>
+
+                <div class="col-md-12 text-center">
+                  <div class="loading">Carregando</div>
+                  <div class="error-message"></div>
+                  <div class="sent-message">Sua mensagem foi enviada. Obrigado!</div>
+
+                  <button type="submit">Enviar</button>
+                </div>
+              
+              </div>
+            </form>
+          </div><!-- End Contact Form -->
+
+        </div>
 
       </div>
 
