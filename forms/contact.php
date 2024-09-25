@@ -20,6 +20,7 @@
     'host' => 'smtp-mail.outlook.com',
     'username' => 'matheuspaulcoelho@hotmail.com',
     'password' => 'senha',
+    'encryption' => 'TLS',
     'port' => '587'
   );
 
