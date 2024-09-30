@@ -17,11 +17,11 @@
   $contact->subject = $_POST['subject'];
 
   $contact->smtp = array(
-    'host' => 'smtp-mail.outlook.com',
-    'username' => 'matheuspaulcoelho@hotmail.com',
-    'password' => 'senha',
-    'encryption' => 'TLS',
-    'port' => '587'
+    'host' => '',
+    'username' => '',
+    'password' => '',
+    'encryption' => '',
+    'port' => ''
   );
 
   $contact->add_message( $_POST['name'], 'From');
