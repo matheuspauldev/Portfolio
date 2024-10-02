@@ -16,13 +16,13 @@
   $contact->from_email = $_POST['email'];
   $contact->subject = $_POST['subject'];
 
-  $contact->smtp = array(
-    'host' => '',
-    'username' => '',
-    'password' => '',
-    'encryption' => '',
-    'port' => ''
-  );
+  // $contact->smtp = array(
+  //   'host' => '',
+  //   'username' => '',
+  //   'password' => '',
+  //   'encryption' => '',
+  //   'port' => ''
+  // );
 
   $contact->add_message( $_POST['name'], 'From');
   $contact->add_message( $_POST['email'], 'Email');
