@@ -639,6 +639,13 @@ section,
   color: var(--accent-color);
   line-height: 0;
 }
+#CV{
+  transition: 0.5s ease;
+}
+#CV:hover{
+  background-color: #149ddd;
+}
+
 
 /*--------------------------------------------------------------
 # Stats Section
